@@ -1,0 +1,478 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;500;600;700;800&display=swap');
+
+*{
+    font-family: 'Inter';
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-nav a{
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.navbar-brand{
+    color: #ffffff;
+    font-family: helvetica medium;
+}
+
+
+.navbar-light .navbar-brand{
+    color: #ffffff;
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.dropdown-menu .dropdown-item{
+    color: #000000;
+    font-family: 'Inter';
+    font-weight: 500;
+}
+
+.dropdown-menu .dropdown-item:hover{
+    color: #37B049;
+    transition: all 0.3s ease;
+}
+
+.navbar-nav .nav-item{
+    margin: 0 20px;
+}
+
+.navbar-nav .nav-item .nav-link{
+    color: #ffffff;
+    font-family: 'Inter';
+    font-weight: 500;
+}
+
+.navbar-nav .nav-item a:hover{
+    border-bottom: 3px solid #ffffff;
+    transition: all 0.2s ease;
+}
+
+.carousel-inner .carousel-item .carousel-caption {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.carousel-inner .carousel-item .carousel-caption .text-banner{
+    color: #ffffff;
+    text-align: left;
+}
+
+.mitra{
+    margin-top: 50px;
+    background-color: #F5F9F7;
+}
+
+.mitra .row {
+    margin: 0 70px 0 70px;
+}
+
+.mitra .row .support {
+    margin: 50px 0;
+    text-align: center;
+}
+
+.mitra .row .image {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80%;
+    margin-bottom: 50px;
+}
+
+.tentang {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px 0;
+}
+
+.tentang .row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 70px 50px 0 30px;
+}
+
+.tentang .row h2{
+    color: #37B049;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.tentang .row .col-4 img {
+    margin-left: auto;
+}
+
+.btny{
+    border-radius: 20px;
+    border: 0px;
+}
+
+.btn:hover{
+    letter-spacing: 2px;
+}
+
+
+.keunggulan {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 90px 0;
+    background-image: url(images/keunggulan.png);
+    background-repeat: no-repeat;
+    height: 915px;
+}
+
+.keunggulan .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.keunggulan .container .row h2{
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+.keunggulan .container .row p{
+    font-family: 'Inter';
+    color: #ffffff;
+    font-weight: 300;
+}
+
+.keunggulan .container .row p span{
+    font-family: 'Inter';
+    font-weight: 700;
+}
+
+.keunggulan .container .container .row img{
+    height: 100px;
+    margin-right: 200px;
+}
+
+.keunggulan .container .gambar .img {
+    margin-left: 20px;
+}
+
+.keunggulan .container .gambar h3 p{
+    color: #ffffff;
+    font-family: 'Inter';
+    font-size: 12px;
+    margin-left: 10px;
+}
+
+.keunggulan .container .gambar h3 span{
+    color: #ffffff;
+    font-family: 'Inter';
+    font-size: 64px;
+    font-weight: 800;
+}
+
+.keunggulan .container .container .row h3 p{
+    color: #ffffff;
+    font-family: 'Inter';
+    font-size: 12px;
+}
+
+.keunggulan .container .container .row h3 span{
+    color: #ffffff;
+    font-family: 'Inter';
+    font-size: 64px;
+    font-weight: 800;
+}
+
+.row h1{
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+
+.judul-fitur{
+    display: flex;
+    margin: 10px;
+}
+
+.judul-fitur img{
+    margin-right: 20px;
+    height: 40px;
+}
+
+.judul-fitur h1{
+    font-size: 24px;
+    font-family: 'Inter';
+    font-weight: 700;
+}
+
+.fitur .row h1 {
+    color: #37B049;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 44px;
+}
+
+.fitur .row h3{
+    color: #37B049;
+    font-weight: 700;
+}
+
+.fitur .row .col-4 {
+    margin-top: 7px;
+    
+}
+
+.fitur .row .col-md-6 {
+    margin-top: 7px;
+}
+
+.tertarik {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+}
+
+.tertarik .card {
+    background-color: #F5F9F7;
+}
+
+.tertarik .card .card-body .row {
+    margin-left: 20px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.tertarik .card .card-body .row h2{
+    font-family: 'Inter';
+    font-size: 42px;
+    font-weight: 700;
+}
+
+.tertarik .card .card-body img {
+    width: 300px;
+}
+
+footer{
+    margin-top: 50px;
+}
+
+.footer1 .container .row .col-md-2 p a:hover{
+    color: #29a973;
+}
+
+.footer1 .row .text-light:hover{
+    letter-spacing: 1px;
+    border-bottom: 2px solid #ffffff;
+}
+
+.footer1 .container .row .share{
+    margin-bottom: 30px;
+}
+
+.footer1 .container .row .share a{
+    display: inline-block;
+	height: 40px;
+	width: 40px;
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+    border: 2px solid #ffffff;
+	color: white;
+	transition: all 0.5s ease;
+}
+
+.footer1 .container .row .share a:hover{
+    color: white;
+	background-color: rgba(255,255,255,0.2);
+}
+
+
+
+/* media queries */
+@media only screen and (min-width: 768px) and (max-width: 991px){
+    .carousel-inner .carousel-item .carousel-caption{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .carousel-inner .carousel-item .carousel-caption .text-banner{
+        color: #000000;
+    }
+
+    .carousel-inner .carousel-item .carousel-caption .banner-img img{
+        display: flex;
+        width: 70%;
+        padding-top: 10px;
+    }
+
+    .mitra .row .image{
+        padding: 30px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .mitra .row .image img{
+        width: 15%;
+    }
+    
+    .tentang .row{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .tentang .row .text-tentang{
+        font-size: 100%;
+    }
+
+    .tentang .row .text-tentang h2{
+        font-size: 32pxpx;
+    }
+
+    .tentang .row img{
+        width: 200%;
+    }
+
+    .keunggulan .row div{
+        display: flex;
+        align-items: center;
+        display: contents;
+        flex-direction: row;
+    
+    }
+
+    .tertarik .card .card-body .row{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .tertarik .card .card-body .row img{
+        width: 100%;
+    }
+
+    .tertarik .card .card-body .row .content h2{
+        font-size: 32px;
+    }
+
+    .tertarik .card .card-body .row .content p{
+        font-size: 80%;
+    }
+
+    .tertarik .card .card-body .row .content a{
+        font-size: 70%;
+    }
+
+}
+
+
+@media only screen and (max-width: 767px){
+    .carousel-inner .carousel-item .carousel-caption{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .carousel-inner .carousel-item .carousel-caption .text-banner{
+        color: #000000;
+        font-size: 90%;
+    }
+
+    .carousel-inner .carousel-item .carousel-caption .banner-img img{
+        display: flex;
+        width: 50%;
+        padding-top: 10px;
+    }
+
+    .mitra .row .image{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .mitra .row .image img{
+        width: 10%;
+    }
+
+    .tentang .row{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .tentang .row .text-tentang{
+        font-size: 70%;
+    }
+
+    .tentang .row .text-tentang h2{
+        font-size: 20px;
+    }
+
+    .tentang .row img{
+        width: 200%;
+    }
+
+    .keunggulan .row div{
+        display: flex;
+        align-items: center;
+        display: contents;
+        flex-direction: row;
+    
+    }
+
+    .fitur{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .judul-fitur{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .judul-fitur img{
+        width: 20%;
+        height: 20%;
+    }
+
+    .tertarik .card .card-body .row{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .tertarik .card .card-body .row img{
+        width: 50%;
+    }
+
+    .tertarik .card .card-body .row .content h2{
+        font-size: 32px;
+    }
+
+    .tertarik .card .card-body .row .content p{
+        font-size: 80%;
+    }
+
+    .tertarik .card .card-body .row .content a{
+        font-size: 70%;
+    }
+
+}
+
