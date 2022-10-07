@@ -89,14 +89,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 100px 0;
+    /* margin: 100px 0; */
 }
 
 .tentang .row{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 70px 50px 0 30px;
+    margin: 70px 145px 0 30px;
 }
 
 .tentang .row h2{
@@ -107,6 +107,7 @@
 
 .tentang .row .col-4 img {
     margin-left: auto;
+    width: 400px;
 }
 
 .btny{
@@ -126,7 +127,8 @@
     margin: 90px 0;
     background-image: url(images/keunggulan.png);
     background-repeat: no-repeat;
-    height: 957px;
+    height: 955px;
+    background-size: cover;
 }
 
 .keunggulan .container{
@@ -365,11 +367,10 @@ footer{
 
     .tertarik .card .card-body .row img{
         width: 100%;
-	margin-top: 20px;
     }
 
     .tertarik .card .card-body .row .content h2{
-        font-size: 28px;
+        font-size: 32px;
     }
 
     .tertarik .card .card-body .row .content p{
@@ -438,30 +439,6 @@ footer{
     
     }
 
-    .keunggulan .container .row{
-        margin: 10px;
-    }
-
-    .keunggulan .container .row h2{
-        font-size: 24px;
-    }
-
-    .keunggulan .container .row .gambar img{
-        height: 300px;
-    }
-
-    .keunggulan .container .gambar h3 span{
-        font-size: 40px;
-    }
-
-    .keunggulan .container .container .row img{
-        height: 60px;
-    }
-
-    .keunggulan .container .container .row h3 span{
-        font-size: 40px;
-    }
-
     .fitur{
         display: flex;
         align-items: center;
@@ -485,11 +462,10 @@ footer{
 
     .tertarik .card .card-body .row img{
         width: 50%;
-	margin-top: 20px;
     }
 
     .tertarik .card .card-body .row .content h2{
-        font-size: 24px;
+        font-size: 32px;
     }
 
     .tertarik .card .card-body .row .content p{
