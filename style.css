@@ -449,6 +449,18 @@ footer{
         height: 300px;
     }
 
+    .keunggulan .container .gambar h3 span{
+        font-size: 40px;
+    }
+
+    .keunggulan .container .container .row img{
+        height: 60px;
+    }
+
+    .keunggulan .container .container .row h3 span{
+        font-size: 40px;
+    }
+
     .fitur{
         display: flex;
         align-items: center;
