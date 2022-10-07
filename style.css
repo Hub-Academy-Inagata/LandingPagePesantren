@@ -365,10 +365,11 @@ footer{
 
     .tertarik .card .card-body .row img{
         width: 100%;
+	margin-top: 20px;
     }
 
     .tertarik .card .card-body .row .content h2{
-        font-size: 32px;
+        font-size: 28px;
     }
 
     .tertarik .card .card-body .row .content p{
@@ -484,10 +485,11 @@ footer{
 
     .tertarik .card .card-body .row img{
         width: 50%;
+	margin-top: 20px;
     }
 
     .tertarik .card .card-body .row .content h2{
-        font-size: 32px;
+        font-size: 24px;
     }
 
     .tertarik .card .card-body .row .content p{
