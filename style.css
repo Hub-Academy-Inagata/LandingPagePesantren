@@ -105,7 +105,7 @@
     font-weight: 700;
 }
 
-.tentang .row .col-4 img {
+.tentang .row img {
     margin-left: auto;
     width: 400px;
 }
@@ -163,40 +163,8 @@
     font-weight: 700;
 }
 
-.keunggulan .container .container .row img{
-    height: 100px;
-    margin-right: 200px;
-}
-
-.keunggulan .container .gambar .img {
+.keunggulan .container .gambar img {
     margin-left: 20px;
-}
-
-.keunggulan .container .gambar h3 p{
-    color: #ffffff;
-    font-family: 'Inter';
-    font-size: 12px;
-    margin-left: 10px;
-}
-
-.keunggulan .container .gambar h3 span{
-    color: #ffffff;
-    font-family: 'Inter';
-    font-size: 64px;
-    font-weight: 800;
-}
-
-.keunggulan .container .container .row h3 p{
-    color: #ffffff;
-    font-family: 'Inter';
-    font-size: 12px;
-}
-
-.keunggulan .container .container .row h3 span{
-    color: #ffffff;
-    font-family: 'Inter';
-    font-size: 64px;
-    font-weight: 800;
 }
 
 .row h1{
@@ -336,7 +304,7 @@ footer{
     }
 
     .mitra .row .image img{
-        width: 15%;
+        width: 20%;
     }
     
     .tentang .row{
@@ -351,11 +319,11 @@ footer{
     }
 
     .tentang .row .text-tentang h2{
-        font-size: 32pxpx;
+        font-size: 32px;
     }
 
     .tentang .row img{
-        width: 200%;
+        width: 100%;
     }
 
     .keunggulan .row div{
@@ -363,7 +331,27 @@ footer{
         align-items: center;
         display: contents;
         flex-direction: row;
-    
+    }
+
+    .keunggulan .container .row{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .keunggulan .container{
+        margin: 10px;
+    }
+
+    .keunggulan .container .row h2{
+        font-size: 24px;
+    }
+
+    .keunggulan .container .row p span{
+        font-size: 16px;
+    }
+
+    .keunggulan .container .gambar img{
+        width: 70%;
     }
 
     .tertarik .card .card-body .row{
@@ -417,7 +405,7 @@ footer{
     }
 
     .mitra .row .image img{
-        width: 10%;
+        width: 50%;
     }
 
     .tentang .row{
@@ -432,11 +420,11 @@ footer{
     }
 
     .tentang .row .text-tentang h2{
-        font-size: 20px;
+        font-size: 32px;
     }
 
     .tentang .row img{
-        width: 200%;
+        width: 100%;
     }
 
     .keunggulan .row div{
@@ -444,7 +432,27 @@ footer{
         align-items: center;
         display: contents;
         flex-direction: row;
-    
+    }
+
+    .keunggulan .container .row{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .keunggulan .container{
+        margin: 10px;
+    }
+
+    .keunggulan .container .row h2{
+        font-size: 24px;
+    }
+
+    .keunggulan .container .row p span{
+        font-size: 16px;
+    }
+
+    .keunggulan .container .gambar img{
+        width: 70%;
     }
 
     .fitur{
