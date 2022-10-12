@@ -119,6 +119,14 @@
     letter-spacing: 2px;
 }
 
+.btny img {
+    transition: all 0.5s ease;
+}
+
+.btny img:hover {
+    transform: scale(1.1);
+}
+
 
 .keunggulan {
     display: flex;
