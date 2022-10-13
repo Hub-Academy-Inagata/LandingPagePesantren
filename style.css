@@ -110,7 +110,8 @@
     width: 400px;
 }
 
-.btny{
+
+.video-btn{
     border-radius: 20px;
     border: 0px;
 }
@@ -118,15 +119,6 @@
 .btn:hover{
     letter-spacing: 2px;
 }
-
-.btny img {
-    transition: all 0.5s ease;
-}
-
-.btny img:hover {
-    transform: scale(1.1);
-}
-
 
 .keunggulan {
     display: flex;
