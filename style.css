@@ -110,22 +110,6 @@
     width: 400px;
 }
 
-.modal-dialog {
-    max-width: 800px;
-    margin: 30px auto;
-}
-
-.modal-body {
-    position:relative;
-    padding:0px;
-}
-
-.btn-close {
-    position:absolute;
-    right:-30px;
-    top:0;
-}
-
 .video-btn{
     border-radius: 20px;
     border: 0px;
